@@ -1,5 +1,7 @@
 Day 21: Generics C++ Solution,,
 
+Python is not available for generics yet, so, it's solved in C++
+
 
 template <class T>
 void printArray(vector<T> vec){
