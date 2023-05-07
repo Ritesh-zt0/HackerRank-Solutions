@@ -1,0 +1,10 @@
+Day 21: Generics C++ Solution,,
+
+
+template <class T>
+void printArray(vector<T> vec){
+
+   for(int i=0; i<vec.size(); i++)
+   cout<<vec[i]<<endl;
+
+}
