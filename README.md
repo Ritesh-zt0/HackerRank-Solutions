@@ -1,9 +1,11 @@
 <h2 align="center">
-Hi there, this repo provides solution to <a href="https://www.hackerrank.com/kumarritra18extc" target="_blank" rel="noreferrer">HackerRank problems</a> 👋
+Hello, this repo provides solution to HackerRank problems by <a href="https://www.hackerrank.com/kumarritra18extc" target="_blank" rel="noreferrer">Ritesh Kumar</a> 👋
 </h2>
 
 <h3 align="center">
-I'm an Aspiring Data Analyst 💻, Gamer 🎮, and Nemophilist 🌴!
+Aspiring Data Analyst 💻, Gamer 🎮, and Nemophilist 🌴!
 </h3> 
 
-I love data visualization and analyzing it to solve the problems. I am an engineering graduate of Electronics and Telecommunication Engineering from Pillai College of Engineering affiliated with University of Mumbai. Recently completed my Google Data Analytics course from Coursera.
+## 📝 Table of Contents:
+
+### 1. [30 Days of Code Solution.](https://github.com/Ritesh-zt0/HackerRank-Solutions/tree/main/30%20Days%20of%20Code)
