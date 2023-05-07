@@ -1,0 +1,22 @@
+Day 1: Data Types
+
+Objective
+Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
+
+Task
+Complete the code in the editor below. The variables , , and  are already declared and initialized for you. You must:
+Declare  variables: one of type int, one of type double, and one of type String.
+
+Solution: Python,
+
+i = 4
+d = 4.0
+s = 'HackerRank '
+
+i2 = int(input())
+d2 = float(input())
+s2 = input()
+
+print(i + i2)
+print(d + d2)
+print(s + s2)
