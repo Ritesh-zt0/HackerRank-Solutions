@@ -1,0 +1,20 @@
+Day 2: Data Types
+
+Objective
+In this challenge, you will work with arithmetic operators..
+
+Task
+Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip),
+and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer.
+
+Solution:
+
+def solve(meal_cost, tip_percent, tax_percent):
+    tip = meal_cost/100 * tip_percent
+    tax = tax_percent/100 * meal_cost
+    # meal_cost = input("enter the cost of the meal")
+      
+    
+    total_cost = tip + meal_cost + tax
+    
+    print(round(total_cost))
