@@ -1,0 +1,9 @@
+Day 9: Recursion 3 Python Solution,
+
+def factorial(n):
+    
+    if n == 1:
+        return 1
+    else:
+        n = n * factorial(n-1)
+        return n
