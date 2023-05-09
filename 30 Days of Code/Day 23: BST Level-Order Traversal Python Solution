@@ -1,0 +1,17 @@
+Day 23: BST Level-Order Traversal Python Solution,,,
+
+
+def levelOrder(self,root):
+        if root is None:
+            return 
+        
+        que = []
+        que.append(root)
+
+        while len(que) !=0:
+            p = que.pop(0)
+            print(p.data, end=' ')
+            if p.left is not None:
+                que.append(p.left)
+            if p.right is not None:
+                que.append(p.right)
