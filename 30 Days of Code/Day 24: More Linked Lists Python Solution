@@ -1,0 +1,16 @@
+Day 24: More Linked Lists Python Solution,,,
+
+
+
+        que = []
+        if head == None:
+            return 
+        p = head
+        que.append(p.data)
+        p = p.next
+        while p is not None:
+            que.append(p.data)
+            p = p.next
+        que = list(dict.fromkeys(que))
+        for item in que:
+            print(item,end=' ')
