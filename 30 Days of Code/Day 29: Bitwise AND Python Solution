@@ -1,0 +1,13 @@
+Day 29: Bitwise AND Python Solution👇,,
+
+
+
+    max_val = 0
+    for i in range(K-2,N):
+        for j in range(i+1,N+1):
+            val = i&j
+            if val == K-1:
+                return val
+            if max_val<val<K:
+                max_val = val
+     return max_val
